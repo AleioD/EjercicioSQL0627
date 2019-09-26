@@ -1,6 +1,6 @@
 <?php
 
-  require_once 'conecton.php';
+  require_once 'conection.php';
 
  ?>
 
@@ -13,7 +13,7 @@
    <body>
      <h2>BUSCADOR</h2>
      <form action="" method="get">
-       
+
      </form>
    </body>
  </html>

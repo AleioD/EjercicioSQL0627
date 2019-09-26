@@ -17,5 +17,5 @@
     header('location: agregarPelicula.php');
 
   } catch (PDOException $e) {
-    echo $e;
+    echo "Error:" . $e->getMessage();
   }
